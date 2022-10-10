@@ -65,6 +65,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px;
     gap: 20px;
 }
 
@@ -156,7 +157,8 @@ header {
 
 .container-pg2{
     width: 100%;
-    height: 100vh;
+    height: auto;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -227,3 +229,75 @@ header {
     color: rgb(59, 59, 59);
     border-radius: 5px;
 }
+
+.ultimas-avaliacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ultimas-avaliacoes h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.ultimas-avaliacoes-autor-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.ultimas-avaliacoes-autor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 300px;
+    width: 200px;
+}
+
+.ultimas-avaliacoes-autor-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.ultimas-avaliacoes-autor-text h3 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.ultimas-avaliacoes-autor-mais {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.ultimas-avaliacoes-autor-mais a  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(59, 59, 59);
+    color: #EFF0F3;
+    border-radius: 5px;
+    box-shadow: 
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.ultimas-avaliacoes-autor-mais a:hover  {
+    background-color: #EFF0F3;
+    color: rgb(59, 59, 59);
+    border-radius: 5px;
+}
+
+
