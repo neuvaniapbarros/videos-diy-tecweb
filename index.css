@@ -263,6 +263,7 @@ h5 {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-top: 30px;
 }
 
 .ultimas-avaliacoes-autor-mais a {
