@@ -825,8 +825,10 @@ input[type="submit"]:hover {
 }
 
 #forumPostsTable {
-  width: 60%;
   display: grid;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
 }
 
 .forumPosts {
